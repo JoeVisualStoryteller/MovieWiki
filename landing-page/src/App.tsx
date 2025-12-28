@@ -3,6 +3,7 @@ import { Navigation } from './components/layout/Navigation'
 import { Hero } from './components/Hero'
 import { ScreenplayView } from './components/screenplay/ScreenplayView'
 import { WikiView } from './components/wiki/WikiView'
+import { StoryStructureView } from './components/story-structure/StoryStructureView'
 import { Footer } from './components/layout/Footer'
 import './App.css'
 
@@ -41,6 +42,8 @@ function App() {
           selectedScene={selectedScene}
           onSceneChange={setSelectedScene}
         />
+      ) : viewMode === 'story-structure' ? (
+        <StoryStructureView />
       ) : (
         <WikiView
           section={wikiSection}

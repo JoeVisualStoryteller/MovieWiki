@@ -1,0 +1,125 @@
+.story-structure-view {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #0a0a0a, #0f0f0f);
+  padding: 2rem;
+}
+
+.story-structure-header {
+  max-width: 1200px;
+  margin: 0 auto 3rem;
+  text-align: center;
+  padding: 2rem 1rem;
+  border-bottom: 1px solid #333;
+}
+
+.story-structure-header h1 {
+  font-size: 2.5rem;
+  color: #d4af37;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.story-structure-header h2 {
+  font-size: 1.5rem;
+  color: #e0e0e0;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+
+.structure-description {
+  font-size: 1rem;
+  color: #b8b8b8;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.story-structure-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.beats-renderer {
+  background: #1a1a1a;
+  border-radius: 8px;
+  padding: 2rem;
+  color: #e0e0e0;
+  font-family: 'Courier New', monospace;
+  font-size: 0.95rem;
+  line-height: 1.8;
+  white-space: pre-wrap;
+}
+
+.beats-renderer h2 {
+  color: #d4af37;
+  font-size: 1.3rem;
+  margin: 2rem 0 1rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #333;
+}
+
+.beats-renderer h3 {
+  color: #e0e0e0;
+  font-size: 1.1rem;
+  margin: 1.5rem 0 0.75rem 0;
+}
+
+.beats-renderer p {
+  color: #b8b8b8;
+  margin-bottom: 0.5rem;
+}
+
+.beats-renderer strong {
+  color: #d4af37;
+  font-weight: bold;
+}
+
+.loading-state,
+.error-state {
+  max-width: 800px;
+  margin: 4rem auto;
+  text-align: center;
+  padding: 3rem 2rem;
+  background: #1a1a1a;
+  border-radius: 8px;
+  border: 1px solid #333;
+}
+
+.loading-state p {
+  color: #b8b8b8;
+  font-size: 1.1rem;
+}
+
+.error-state h2 {
+  color: #ff6b6b;
+  margin-bottom: 1rem;
+}
+
+.error-state p {
+  color: #e0e0e0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .story-structure-view {
+    padding: 1rem;
+  }
+
+  .story-structure-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .story-structure-header h2 {
+    font-size: 1.2rem;
+  }
+
+  .structure-description {
+    font-size: 0.9rem;
+  }
+
+  .beats-renderer {
+    padding: 1.5rem;
+    font-size: 0.85rem;
+  }
+}

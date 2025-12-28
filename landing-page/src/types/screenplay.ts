@@ -14,7 +14,7 @@ export interface Act {
   id: string
   title: string
   sceneCount: number
-  status: 'complete' | 'in-progress' | 'placeholder'
+  status: 'complete' | 'in-progress' | 'placeholder' | 'in-development'
   scenes: Scene[]
 }
 
@@ -32,5 +32,5 @@ export interface Character {
   appearances: number[]
 }
 
-export type ViewMode = 'screenplay' | 'wiki'
+export type ViewMode = 'screenplay' | 'wiki' | 'story-structure'
 export type WikiSection = 'canon-rules' | 'story-bible' | 'characters' | 'scene-directory'

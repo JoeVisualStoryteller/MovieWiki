@@ -384,6 +384,111 @@ export const acts: Act[] = [
         characters: []
       }
     ]
+  },
+  {
+    id: 'act-vi',
+    title: 'ACT VI — THE EAST OPENS',
+    sceneCount: 20,
+    status: 'placeholder',
+    scenes: []
+  },
+  {
+    id: 'act-vii',
+    title: 'ACT VII — THE CHOICE',
+    sceneCount: 20,
+    status: 'placeholder',
+    scenes: []
+  },
+  {
+    id: 'act-viii',
+    title: 'ACT VIII — THE PRICE OF THE CHOICE',
+    sceneCount: 20,
+    status: 'placeholder',
+    scenes: []
+  },
+  {
+    id: 'act-ix',
+    title: 'ACT IX — WHAT REMAINS',
+    sceneCount: 20,
+    status: 'placeholder',
+    scenes: []
+  },
+  {
+    id: 'act-x',
+    title: 'ACT X — EXPANDED ARCHIVE',
+    sceneCount: 20,
+    status: 'in-development',
+    scenes: []
+  },
+  {
+    id: 'act-xi',
+    title: 'ACT XI — EXPANDED ARCHIVE',
+    sceneCount: 20,
+    status: 'in-development',
+    scenes: []
+  },
+  {
+    id: 'act-xii',
+    title: 'ACT XII — EXPANDED ARCHIVE',
+    sceneCount: 20,
+    status: 'in-development',
+    scenes: []
+  },
+  {
+    id: 'act-xiii',
+    title: 'ACT XIII — EXPANDED ARCHIVE',
+    sceneCount: 20,
+    status: 'in-development',
+    scenes: []
+  },
+  {
+    id: 'act-xiv',
+    title: 'ACT XIV — EXPANDED ARCHIVE',
+    sceneCount: 20,
+    status: 'in-development',
+    scenes: []
+  },
+  {
+    id: 'act-xv',
+    title: 'ACT XV — EXPANDED ARCHIVE',
+    sceneCount: 20,
+    status: 'in-development',
+    scenes: []
+  },
+  {
+    id: 'act-xvi',
+    title: 'ACT XVI — EXPANDED ARCHIVE',
+    sceneCount: 20,
+    status: 'in-development',
+    scenes: []
+  },
+  {
+    id: 'act-xvii',
+    title: 'ACT XVII — EXPANDED ARCHIVE',
+    sceneCount: 20,
+    status: 'in-development',
+    scenes: []
+  },
+  {
+    id: 'act-xviii',
+    title: 'ACT XVIII — EXPANDED ARCHIVE',
+    sceneCount: 20,
+    status: 'in-development',
+    scenes: []
+  },
+  {
+    id: 'act-xix',
+    title: 'ACT XIX — EXPANDED ARCHIVE',
+    sceneCount: 20,
+    status: 'in-development',
+    scenes: []
+  },
+  {
+    id: 'act-xx',
+    title: 'ACT XX — THE FINAL BATTLE',
+    sceneCount: 20,
+    status: 'placeholder',
+    scenes: []
   }
 ]
 
