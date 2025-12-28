@@ -1,0 +1,89 @@
+.markdown-renderer {
+  font-family: 'Courier Prime', 'Courier New', Courier, monospace;
+  font-size: 12pt;
+  line-height: 1.5;
+  color: #e0e0e0;
+  max-width: 8.5in;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Screenplay-specific formatting */
+.screenplay-title {
+  text-align: center;
+  font-size: 14pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 2rem 0;
+  color: #d4af37;
+}
+
+.act-title {
+  text-align: center;
+  font-size: 13pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 1.5rem 0;
+  color: #d4af37;
+}
+
+.scene-title {
+  font-size: 12pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 2rem 0 0.5rem 0;
+  color: #b8b8b8;
+}
+
+.scene-heading {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 1rem 0;
+  color: #e0e0e0;
+}
+
+.character-name {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 1rem 0 0 0;
+  font-weight: normal;
+  color: #e0e0e0;
+}
+
+.action {
+  margin: 0 0 1rem 0;
+  color: #d0d0d0;
+}
+
+.parenthetical {
+  font-style: italic;
+  color: #c0c0c0;
+}
+
+.emphasis {
+  font-weight: bold;
+  color: #e0e0e0;
+}
+
+.scene-divider {
+  border: none;
+  border-top: 1px solid #2a2a2a;
+  margin: 2rem 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .markdown-renderer {
+    font-size: 11pt;
+    padding: 1rem;
+    max-width: 100%;
+  }
+
+  .screenplay-title {
+    font-size: 13pt;
+  }
+
+  .act-title {
+    font-size: 12pt;
+  }
+}

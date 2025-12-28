@@ -1,0 +1,1 @@
+Joseph dismissed. Helmet left.

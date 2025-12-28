@@ -1,0 +1,15 @@
+.screenplay-view {
+  min-height: 100vh;
+}
+
+.screenplay-content {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  min-height: calc(100vh - 60px);
+}
+
+@media (max-width: 1024px) {
+  .screenplay-content {
+    grid-template-columns: 1fr;
+  }
+}

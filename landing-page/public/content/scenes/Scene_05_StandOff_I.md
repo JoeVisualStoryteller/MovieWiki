@@ -1,0 +1,1 @@
+First confrontation with Necrotic King.

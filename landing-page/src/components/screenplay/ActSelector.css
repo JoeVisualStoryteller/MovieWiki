@@ -1,0 +1,71 @@
+.act-selector {
+  display: flex;
+  gap: 0.5rem;
+  padding: 1rem;
+  background: #0f0f0f;
+  border-bottom: 1px solid #2a2a2a;
+  overflow-x: auto;
+  justify-content: center;
+}
+
+.act-tab {
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  color: #b8b8b8;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.act-tab:hover {
+  background: #252525;
+  border-color: #d4af37;
+  color: #e0e0e0;
+}
+
+.act-tab.active {
+  background: #d4af37;
+  color: #0a0a0a;
+  border-color: #d4af37;
+  font-weight: 600;
+}
+
+.act-number {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.badge {
+  background: #0a0a0a;
+  color: #d4af37;
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.act-tab.active .badge {
+  background: rgba(0, 0, 0, 0.3);
+  color: #0a0a0a;
+}
+
+@media (max-width: 768px) {
+  .act-selector {
+    justify-content: flex-start;
+    padding: 0.75rem;
+  }
+
+  .act-tab {
+    padding: 0.6rem 1rem;
+    font-size: 0.85rem;
+  }
+}

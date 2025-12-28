@@ -1,0 +1,1 @@
+Cassandra meets Joseph. Protector assigned.
