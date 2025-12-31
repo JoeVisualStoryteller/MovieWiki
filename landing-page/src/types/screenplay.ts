@@ -32,5 +32,5 @@ export interface Character {
   appearances: number[]
 }
 
-export type ViewMode = 'screenplay' | 'wiki' | 'story-structure'
+export type ViewMode = 'screenplay' | 'wiki' | 'story-structure' | 'novel'
 export type WikiSection = 'canon-rules' | 'story-bible' | 'characters' | 'scene-directory'

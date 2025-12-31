@@ -23,6 +23,12 @@ export function Navigation({ viewMode, onViewChange }: NavigationProps) {
               Screenplay
             </button>
             <button
+              className={`view-btn ${viewMode === 'novel' ? 'active' : ''}`}
+              onClick={() => onViewChange('novel')}
+            >
+              Novel
+            </button>
+            <button
               className={`view-btn ${viewMode === 'story-structure' ? 'active' : ''}`}
               onClick={() => onViewChange('story-structure')}
             >

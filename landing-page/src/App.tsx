@@ -4,6 +4,7 @@ import { Hero } from './components/Hero'
 import { ScreenplayView } from './components/screenplay/ScreenplayView'
 import { WikiView } from './components/wiki/WikiView'
 import { StoryStructureView } from './components/story-structure/StoryStructureView'
+import { NovelView } from './components/novel/NovelView'
 import { Footer } from './components/layout/Footer'
 import './App.css'
 
@@ -42,6 +43,8 @@ function App() {
           selectedScene={selectedScene}
           onSceneChange={setSelectedScene}
         />
+      ) : viewMode === 'novel' ? (
+        <NovelView />
       ) : viewMode === 'story-structure' ? (
         <StoryStructureView />
       ) : (

@@ -1,0 +1,166 @@
+.novel-view {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #0a0a0a, #0f0f0f);
+  padding: 2rem;
+}
+
+.novel-header {
+  max-width: 900px;
+  margin: 0 auto 3rem;
+  text-align: center;
+  padding: 2rem 1rem;
+  border-bottom: 1px solid #333;
+}
+
+.novel-header h1 {
+  font-size: 2.5rem;
+  color: #d4af37;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.novel-header h2 {
+  font-size: 1.5rem;
+  color: #e0e0e0;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+
+.novel-description {
+  font-size: 1rem;
+  color: #b8b8b8;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.novel-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.novel-text {
+  background: #1a1a1a;
+  border-radius: 8px;
+  padding: 3rem;
+  color: #e0e0e0;
+  font-family: 'Georgia', 'Palatino', serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.novel-text h1 {
+  color: #d4af37;
+  font-size: 2rem;
+  margin: 3rem 0 1.5rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #333;
+  text-align: center;
+}
+
+.novel-text h2 {
+  color: #d4af37;
+  font-size: 1.6rem;
+  margin: 2.5rem 0 1rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #333;
+}
+
+.novel-text h3 {
+  color: #e0e0e0;
+  font-size: 1.3rem;
+  margin: 2rem 0 0.75rem 0;
+  font-style: italic;
+}
+
+.novel-text p {
+  color: #d8d8d8;
+  margin-bottom: 1.5rem;
+  text-indent: 2em;
+  text-align: justify;
+}
+
+.novel-text p:first-child,
+.novel-text h1 + p,
+.novel-text h2 + p,
+.novel-text h3 + p {
+  text-indent: 0;
+}
+
+.novel-text blockquote {
+  border-left: 3px solid #d4af37;
+  padding-left: 1.5rem;
+  margin: 2rem 0;
+  font-style: italic;
+  color: #c0c0c0;
+}
+
+.novel-text strong {
+  color: #d4af37;
+  font-weight: bold;
+}
+
+.novel-text em {
+  font-style: italic;
+  color: #e8e8e8;
+}
+
+.novel-text hr {
+  border: none;
+  border-top: 1px solid #333;
+  margin: 3rem 0;
+}
+
+.loading-state,
+.error-state {
+  max-width: 800px;
+  margin: 4rem auto;
+  text-align: center;
+  padding: 3rem 2rem;
+  background: #1a1a1a;
+  border-radius: 8px;
+  border: 1px solid #333;
+}
+
+.loading-state p {
+  color: #b8b8b8;
+  font-size: 1.1rem;
+}
+
+.error-state h2 {
+  color: #ff6b6b;
+  margin-bottom: 1rem;
+}
+
+.error-state p {
+  color: #e0e0e0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .novel-view {
+    padding: 1rem;
+  }
+
+  .novel-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .novel-header h2 {
+    font-size: 1.2rem;
+  }
+
+  .novel-description {
+    font-size: 0.9rem;
+  }
+
+  .novel-text {
+    padding: 2rem 1.5rem;
+    font-size: 1rem;
+  }
+
+  .novel-text p {
+    text-indent: 1.5em;
+  }
+}
